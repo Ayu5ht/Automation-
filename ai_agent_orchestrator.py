@@ -12,10 +12,10 @@ import requests
 # ==========================================
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "your-api-key-here")
 N8N_WEBHOOK_URL = os.getenv(
-    "N8N_WEBHOOK_URL", "https://ayu5h.app.n8n.cloud/webhook-test/0c2970a2-19f2-4125-abbc-967ecb8c08af"
+    "N8N_WEBHOOK_URL", "https://ayu5h.app.n8n.cloud/webhook/0c2970a2-19f2-4125-abbc-967ecb8c08af"
 )
 MAKE_WEBHOOK_URL = os.getenv(
-    "MAKE_WEBHOOK_URL", "https://hook.us1.make.com/your-make-webhook-id"
+    "MAKE_WEBHOOK_URL", "https://hook.eu1.make.com/jfu508bmtwlf5o8chi1ksd3i4aojaedx"
 )
 
 # Set to False when you plug in your real API keys and Webhook URLs
